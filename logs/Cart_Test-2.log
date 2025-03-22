@@ -1,9 +1,0 @@
-2025-03-22 15:06:16.420 [] INFO  - Chrome browser is launched
-2025-03-22 15:06:16.437 [] INFO  - Driver has been initialize
-2025-03-22 15:06:16.443 [] INFO  - clicked on submit button
-2025-03-22 15:06:16.444 [] INFO  - login is completed
-2025-03-22 15:06:16.447 [testCart_2_deleteProductOnCart] INFO  - ---- Starting test: testCart_2_deleteProductOnCart ----
-2025-03-22 15:06:16.449 [testCart_2_deleteProductOnCart] INFO  - click on the delete button on cartPage
-2025-03-22 15:06:16.450 [testCart_2_deleteProductOnCart] INFO  - product has been deleted from cartPage
-2025-03-22 15:06:16.451 [testCart_2_deleteProductOnCart] INFO  - ---- Test Passed: testCart_2_deleteProductOnCart ----
-2025-03-22 15:06:16.455 [] INFO  - Driver has been closed
