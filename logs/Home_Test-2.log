@@ -1,0 +1,9 @@
+2025-03-22 15:36:01.955 [] INFO  - Chrome browser is launched
+2025-03-22 15:36:01.971 [] INFO  - Driver has been initialize
+2025-03-22 15:36:01.980 [] INFO  - clicked on submit button
+2025-03-22 15:36:01.989 [] INFO  - login is completed
+2025-03-22 15:36:01.993 [testHome_2] INFO  - ---- Starting test: testHome_2 ----
+2025-03-22 15:36:01.996 [testHome_2] INFO  - click on the delete button on HomePage
+2025-03-22 15:36:01.997 [testHome_2] INFO  - product has been deleted from HomePage
+2025-03-22 15:36:01.999 [testHome_2] INFO  - ---- Test Passed: testHome_2 ----
+2025-03-22 15:36:02.003 [] INFO  - Driver has been closed
