@@ -6,14 +6,14 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%X{testName}] %-5level - %msg%n" />
         </Console>
 
-        <!-- Thread-specific log files with simplified names -->
+        <!-- Thread-specific log files inside target/logs/ -->
         <Routing name="ThreadRouter">
             <Routes pattern="$${ctx:threadName}">
                 <!-- Route based on thread name -->
                 <Route>
                     <RollingFile name="Thread-${ctx:threadName}"
-                                 fileName="logs/${ctx:threadName}.log"
-                                 filePattern="logs/${ctx:threadName}-%d{yyyy-MM-dd}.log.gz">
+                                 fileName="target/logs/${ctx:threadName}.log"
+                                 filePattern="target/logs/${ctx:threadName}-%d{yyyy-MM-dd}.log.gz">
                         <PatternLayout>
                             <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{testName}] %-5level - %msg%n</Pattern>
                         </PatternLayout>
