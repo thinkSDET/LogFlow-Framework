@@ -1,9 +1,0 @@
-2025-03-22 15:36:01.848 [] INFO  - Chrome browser is launched
-2025-03-22 15:36:01.864 [] INFO  - Driver has been initialize
-2025-03-22 15:36:01.871 [] INFO  - clicked on submit button
-2025-03-22 15:36:01.897 [] INFO  - login is completed
-2025-03-22 15:36:01.901 [testCart_1_searchProductOnCart] INFO  - ---- Starting test: testCart_1_searchProductOnCart ----
-2025-03-22 15:36:01.904 [testCart_1_searchProductOnCart] INFO  - click on the search button on cartPage
-2025-03-22 15:36:01.905 [testCart_1_searchProductOnCart] INFO  - searching product on the cart page
-2025-03-22 15:36:01.908 [testCart_1_searchProductOnCart] INFO  - ---- Test Passed: testCart_1_searchProductOnCart ----
-2025-03-22 15:36:01.913 [] INFO  - Driver has been closed

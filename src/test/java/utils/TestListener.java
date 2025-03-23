@@ -8,7 +8,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-       // TestLogger.info("===== Starting Test Execution: " + context.getName() + " =====");
+        //TestLogger.info("===== Starting Test Execution: " + context.getName() + " =====");
     }
 
     @Override
@@ -32,6 +32,6 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
-     //   TestLogger.info("===== Finish Test Execution: " + context.getName() + " =====\n");
+        //TestLogger.info("===== Finish Test Execution: " + context.getName() + " =====\n");
     }
 }
