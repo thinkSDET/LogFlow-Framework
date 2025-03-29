@@ -7,9 +7,6 @@ A lightweight logging solution for parallel test execution in TestNG.
 - **Thread-safe logging** - Isolated logs per test thread with automatic file naming (`{TestClass}-{ThreadID}.log`)
 - **Parallel execution support** - Works seamlessly with TestNG parallel tests (methods/classes/tests)
 - **Minimal configuration** - Easy setup with Log4j2 (single config file)
-- **Environment-aware** - Automatically loads `config-{env}.properties` (QA/Prod) via `-DENV=prod`
-- **Browser control** - Override defaults with `-Dbrowser=firefox` or `-DHEADLESS=true`
-- **TestNG integration** - Supports XML parameters via `<parameter name="env" value="prod">`
 - **Structured output** - Consistent log format with timestamps, thread IDs, and log levels
 
 ## Installation
